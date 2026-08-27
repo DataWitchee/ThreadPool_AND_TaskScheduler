@@ -1,0 +1,10 @@
+std::mutex is in c++11
+
+The mutex class is a synchronization primitive that can be used to protect shared data from being
+simultaneously accessed by multiple threads.
+
+
+std::mutex is usually not accessed directly: 
+std::unique_lock, std::lock_guard, or std::scoped_lock(since C++17) manage locking in a more exception-safe manner.
+
+
